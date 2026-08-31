@@ -21,9 +21,9 @@ int main()
   for (int i = 3; i <= n; i++)
   {
     cout << first << " ";
-    int temp = second + first;
+    int next = second + first;
     first = second;
-    second = temp;
+    second = next;
   }
   cout << first << " " << second;
 
