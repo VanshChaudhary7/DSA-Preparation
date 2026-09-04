@@ -6,4 +6,4 @@
 *.so
 *.dylib
 *.dSYM/
-
+*.clang-format
