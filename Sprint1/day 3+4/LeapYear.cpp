@@ -11,7 +11,9 @@ int main() {
       if(y%100!=0&&y%400!=0)cout<<"Leap Year\n";
 
     }
-      
+    else{
+      cout<<"Not a Leap Year\n";
+    }    
   
     return 0;
 }
