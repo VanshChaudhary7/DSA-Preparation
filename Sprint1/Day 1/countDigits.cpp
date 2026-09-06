@@ -12,7 +12,6 @@ int main() {
       sum+=nums%10;
       nums/=10;
       count++;
-      
     }
     cout<<"Count="<<count<<", ";
     cout<<"Sum="<<sum<<endl;
