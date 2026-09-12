@@ -23,11 +23,11 @@ int main() {
     cout<<"Enter the dimensions of the shape\n";
     if (s == "triangle") {
         double a, b, c;
+        cin >> a >> b >> c;
         if(a<0||b<0||c<0){
             cout<<"Invalid Inputs\n";
             return 0;
         }
-        cin >> a >> b >> c;
         auto [area, perimeter] = triangle(a, b, c);
         cout << "Area of Triangle is=" <<fixed<<setprecision(2)<< area << ", its perimeter is =" << perimeter;
     } else if (s == "circle") {
