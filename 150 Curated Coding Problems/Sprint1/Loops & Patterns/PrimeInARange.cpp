@@ -5,17 +5,15 @@ bool isPrime(int n)
 {
   if (n <= 1)
     return false;
-  bool flag = true;
   for (int i = 2; i * i <= n; i++)
   {
     if (n % i == 0)
     {
 
-      flag = false;
-      break;
+      return false;
     }
   }
-  return flag;
+  return true;
 }
 int main()
 {
