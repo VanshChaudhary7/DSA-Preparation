@@ -9,7 +9,7 @@ int main() {
     cin >> x1 >> y1;
     cout << "P2=";
     cin >> x2 >> y2;
-    cout << "P3=";;
+    cout << "P3=";
     cin >> x3 >> y3;
     // Area = | x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2) | / 2
     int area = abs((x1 * (y2 - y3)) + (x2 * (y3 - y1)) + (x3 * (y1 - y2))) / 2;
