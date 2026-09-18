@@ -8,20 +8,31 @@
         "c": false
     },
     "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.inlineSuggest.enable": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.nextEditSuggestions.fixes": false,
+    "github.copilot.nextEditSuggestions.extendedRange": false,
+    "github.copilot.editor.enableCodeActions": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "github.copilot.chat.inlineEdits.nextCursorPrediction.displayLine": false,
+    "github.copilot.chat.inlineEdits.renameSymbolSuggestions": false,
     "editor.inlineSuggest.enabled": false,
-
+    "editor.inlineSuggest.showToolbar": "never",
+    "inlineChat.affordance": "off",
+    "inlineChat.fixDiagnostics": false,
+    "inlineChat.askInChat": false,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": null,
-
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.inlineSuggest.enabled": false
     },
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.inlineSuggest.enabled": false
     },
-
     "C_Cpp.clang_format_style": "file",
     "C_Cpp.clang_format_fallbackStyle": "Google"
 }
