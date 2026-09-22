@@ -13,7 +13,7 @@ int main() {
     for (int x : arr)
         freq[x]++;
     for (auto it : freq) {
-        cout << it.first << "-" << it.second << endl;
+        cout << it.first << "-" << it.second << endl;;
     }
     return 0;
 }
