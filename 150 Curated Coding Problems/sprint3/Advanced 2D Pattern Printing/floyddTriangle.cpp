@@ -31,7 +31,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         for (int j = 0; j < i; j++)
             cout << ((j) ? " " : "") << nextValue();
-        cout << endl;
+        cout  << endl;
     }
 
     return 0;
