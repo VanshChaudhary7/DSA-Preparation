@@ -22,4 +22,4 @@ int main() {
              << ", hex=" << toBase(i, 16) << endl;
     }
     return 0;
-}
+} 
