@@ -8,7 +8,7 @@ void rev(vector<int>&arr,int start,int end){
     start++;
     end--;
   }
-}
+} 
 
 int main() {
  
